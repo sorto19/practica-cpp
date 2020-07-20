@@ -3,7 +3,7 @@
  #include<conio.h>
  using namespace std;
  int main(){
- 	int numeros[100][100],filas, columnas;
+ 	int numeros[100][100],filas, columnas,d;
  	cout<<"digite filas";
  	cin>>filas;
  	cout<<"digite columnas";
