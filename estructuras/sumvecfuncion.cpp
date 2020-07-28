@@ -4,14 +4,14 @@
 using namespace std;
 
 void pedirDatos();
-int calSuma(int vec[], int);
-int vec[100], tam;
+int calSuma(int vec[], int); //prototipo de funcion
+int vec[100], tam; //variables globales
 
 int main(){
 	
 	
 	
-	pedirDatos();
+	pedirDatos();//llamando la funcion
 	cout<<"\n la suma es :"<<calSuma(vec, tam)<<endl;
 	getch();
 	return 0;

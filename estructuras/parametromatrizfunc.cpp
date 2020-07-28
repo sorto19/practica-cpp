@@ -13,7 +13,7 @@ int main(){
 	
 	mostrarMatriz(m,Nfilas,Ncol);
 	cuadrado(m, Nfilas, Ncol);
-	mostrarMatrizelevada(m, Nfilas, Ncol);
+	mostr arMatrizelevada(m, Nfilas, Ncol);
 	getch();
 	return 0;
 }
