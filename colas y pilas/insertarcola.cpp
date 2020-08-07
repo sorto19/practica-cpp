@@ -15,7 +15,7 @@ int main(){
 	cout<<"digite un numero ";
 	cin>>dato;
 	insertarCola(frente, fin, dato);
-
+	
 	
 	getch();
 	return 0;
